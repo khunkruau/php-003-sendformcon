@@ -1,0 +1,26 @@
+﻿<html>
+<head>
+	<title>ส่งข้อมูลฟอร์ม เงื่อนไข ควบคุมการแสดงผล</title>
+</head>
+<body>
+	<h4>#หน้าส่งข้อมูลฟอร์ม เงื่อนไข ควบคุมการแสดงผล</h4>
+	<form action="re.php" method="post">
+		คำนำหน้า :
+		<input type="radio" name="sex" value="นาย">นาย
+		<input type="radio" name="sex" value="นางสาว">นางสาว
+		<input type="radio" name="sex" value="ด.ช.">เด็กชาย
+		<input type="radio" name="sex" value="ด.ญ.">เด็กหญิง
+		<br>
+		ชื่อ : <input type="text" name="firstname"><br>
+		นามสกุล : <input type="text" name="lastname"><br>
+		สัตว์ตัวโปรด :
+		<select name="selanimal">
+			<option value="cow">พี่วัว</option>
+			<option value="deer">น้องกวาง</option>
+		  </select>
+		  <br>
+		<input type="submit" value="ตกลง">
+		<input type="reset" value="ยกเลิก">
+	</form>
+</body>
+</html>
